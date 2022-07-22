@@ -116,21 +116,21 @@ $ git push origin <branch name EXCEPT develop and master branch>
 $ cp .env.example .env
 ```
 
-#Docker
+# Docker
 ```
 $ docker-compose up -d --build
 ```
-#Composer install
+# Composer install
 ```
 $ docker-compose exec app composer install
 ```
-#Copy .env of app
+# Copy .env of app
 ```
 $cd src
 
 $cp .env.example .env
 ```
-#Config DB in .env
+# Config DB in .env
 ```
 DB_CONNECTION=mysql
 DB_HOST=coffee-db
@@ -139,7 +139,7 @@ DB_DATABASE=coffee_database
 DB_USERNAME=homestead
 DB_PASSWORD=secret
 ```
-#Migrate and seed data
+# Migrate and seed data
 ```
 $ docker-compose exec app ash
 
@@ -153,7 +153,7 @@ $php artisan migrate
 
 $php artisan db:seed
 ```
-#Access admin site in local
+# Access admin site in local
 ```
 http://localhost:8888/admin
 

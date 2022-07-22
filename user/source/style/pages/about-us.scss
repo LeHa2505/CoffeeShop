@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+main{
+  background-color: #faf8f5 !important;
+  font-family: 'Nunito', sans-serif;
+}
+
+main > picture >img{
+  width: 100%;
+}
+
+.banner-info{
+  top: 30%;
+  position: absolute;
+  left: 10%;
+} 
+
+.infor{
+  margin: 4.5rem 6rem;
+}
+
+.infor h1{
+  margin-top: 4rem;
+  padding-top: 4rem;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  color: #5D261B;
+  font-weight: bold;
+}
+
+.infor p{
+  margin-bottom: 6rem;
+}
+
+.our-fav{
+  /* margin-bottom: -4.5rem; */
+}
+
+.our-fav p{
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-top: 2.5rem;
+}
+
+.our-fav h2{
+  color:#5D261B;
+  font-weight: 700;
+}
+
+.our-fav img{
+  width: 100%;
+}
+
+.contact{
+  border: solid 10px;        
+  background-color: #5D261B !important;
+  color: #faf8f5 !important;
+  float: right;
+  margin-right: 3rem;
+  font-size: 1.2rem !important;
+  border-radius: 15px !important;
+  // margin-top: 1.5rem;
+}
+
+.member{
+  background-color: #efe8dc;
+  padding: 0 6rem;
+  padding-bottom: 4rem;
+}
+
+.member-img picture{
+}
+
+.member-img picture img{
+  border-radius: 15px;
+  margin-bottom: 1rem;
+}
+
+.member-img picture img{
+  width: 100%;
+}
+
+.member-info {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.member-info h4{
+  font-weight: 700;
+}
+
+.border-bt{
+  border-bottom: solid 1px #aaa;
+  padding-bottom: 12px;
+  margin-top: 12px;
+}
+
+.temp1 {
+  margin-top: 3rem;
+ width: 800px;
+ height: 500px;
+  background-image: url("//static.showit.co/800/uficj5JdR1q0vKL0jROBqw/115838/brooke-cagle-ukidyeid-zi-unsplash.jpg");
+  position: relative;
+}
+
+.title1{
+  position: absolute;
+  right: -70px;
+  /* margin-top: 2rem; */
+  font-family: 'Allura', cursive;
+  padding-top: 3rem;
+  color: #5D261B;
+}
+
+.temp2 p{
+  position: absolute;
+  right: -20rem;
+  padding-top: 4rem;
+}
+
+.temp2 {
+  margin-top: 3rem;
+ width: 800px;
+ height: 500px;
+  background-image: url("//static.showit.co/800/iFLrhlTBT628TY2Lb5TWyw/115838/stil-yvea8vyc-_i-unsplash.jpg");
+  /* float: right; */
+  position: relative;
+}
+
+.temp1 h1{
+  /* margin-top: 2rem; */
+  font-family: 'Allura', cursive;
+  padding-top: 1rem;
+  color: #faf8f5;
+  padding-left: 1rem;
+
+}
+
+.temp1 p{
+  margin-top: 0px;
+}
+
+.temp1-text{
+  top: 5%;
+  background-color: rgba(195,148,125,1);
+  position: absolute;
+  left: -30%;
+  padding-left: 1.5rem;
+}
+
+@media screen and (min-width: 1280px) {
+.member{
+      padding: 0 20rem 4rem 20rem;
+  }
+  .infor{
+      margin: 4.5rem 12rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+.member{
+      padding: 0 2rem 4rem 2rem;
+  }
+}

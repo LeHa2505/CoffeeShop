@@ -1,0 +1,14 @@
+.status-select {
+    color: #794028;
+    border: 1px solid #794028;
+    font-weight: bold;
+    width: 80px;
+    height: 28px;
+    font-size: 12px;
+}
+
+.title {
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: right;
+}

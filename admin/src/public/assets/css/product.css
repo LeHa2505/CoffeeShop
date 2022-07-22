@@ -1,0 +1,16 @@
+.product-detail .title {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.product-detail .category {
+    margin-left: 15px;
+    border: 1px solid;
+    padding: 2px 5px;
+    background-color: #5D261B;
+    color: #EFC3A4;
+    border-radius: 8px;
+    min-width: 50px;
+    text-align: center;
+}
+

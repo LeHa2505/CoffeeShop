@@ -1,0 +1,36 @@
+footer {
+  background-color: #000000d9;
+  color: #fff;
+  padding-top: 34px;
+  padding-bottom: 54px;
+}
+
+footer ul {
+  padding-left: 0px;
+}
+
+footer ul li,
+footer p {
+  font-size: 0.875rem;
+  font-family: 'Nunito', sans-serif;
+}
+
+footer h3 {
+  font-size: 0.975rem !important;
+  margin-bottom: 16px;
+  font-family: 'Nunito', sans-serif;
+}
+
+@media screen and (max-width: 990px) {
+  footer {
+    text-align: center;
+  }
+
+  footer .col-12 {
+    margin-bottom: 10px;
+  }
+}
+
+.nuxtlink{
+  color: #fff;
+}

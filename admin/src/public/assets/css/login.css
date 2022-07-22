@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i");
+
+body {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+}
+
+input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.login-page, .register-page {
+    background-color: #faf8f5;
+}
+
+.login-box {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.login-card-body {
+    padding: 25px 50px;
+    border-radius: 6%/8%;
+}
+
+.login-card-body h1 {
+    color: #5D261B;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.login-card-body .form-group {
+    margin: 10px 0px;
+    color: #4D4D4D;
+    text-align: left;
+}
+
+.login-card-body .form-group label {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.login-card-body .form-group label span {
+    color: red;
+}
+
+.login-card-body .form-group input {
+    border: solid 1px #e0e0e0;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.login-card-body .input-group .form-control, .register-card-body .input-group .form-control {
+    border-right: 1px solid #e0e0e0;
+}
+
+.login-card-body .input-group .error {
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+.login-card-body button {
+    background-color: #5D261B;
+    border-color: #5D261B;
+    color: #EFE8DC!important;
+    font-size: 20px;
+    padding: 10px 60px;
+    border-radius: 13%/50%;
+    margin: 1.5rem 0;
+}

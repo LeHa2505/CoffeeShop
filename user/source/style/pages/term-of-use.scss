@@ -1,0 +1,42 @@
+body {
+	color: #5d261b;
+	background-color: #faf8f5 !important;
+	font-family: "Zen Old Mincho", serif;
+}
+
+.heading{
+    font-family: "Zen Old Mincho", serif;
+    color: #5d261b;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 9.375rem;
+    margin-bottom: 2.5rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.main-section{
+    margin-right: 9.375rem;
+    margin-left: 9.375rem;
+    margin-bottom: 9.375rem;
+}
+
+.title{
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+.content{
+    margin-bottom: 2.8rem;
+}
+
+.list-info-item,
+.paragraph{
+    font-size: 1.2rem;
+}
+
+.list-info-item{
+    list-style-type: disc;
+    color: #5d261b;
+}

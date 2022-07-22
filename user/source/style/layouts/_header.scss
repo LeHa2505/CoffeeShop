@@ -1,0 +1,100 @@
+* {
+  font-size: 1.2rem;
+}
+
+header {
+  background-color: #faf8f5 !important;
+}
+
+header picture {
+  width: 6%;
+  position: absolute;
+  left: 15%;
+  top: 0.6%;
+  z-index: 9999;
+  float: left !important;
+}
+
+
+
+header button.navbar-toggler {
+  display: none !important;
+}
+
+header .container-fluid {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.color-text {
+  color: #5d261b;
+  font-weight: bold;
+}
+
+header ul li {
+  margin: 0px 22px;
+}
+
+
+
+header ul li .nuxtlink {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #5d261b !important;
+  transition: opacity 0.4s ease-in-out !important;
+  font-weight: bold;
+}
+
+header ul li .nuxtlink:hover {
+  opacity: 0.4;
+  -webkit-opacity: 0.4;
+}
+
+header .active {
+  color: #ea8025;
+}
+
+header .active:hover {
+  color: #ea8025;
+}
+
+header .btn:focus {
+  box-shadow: none;
+}
+
+@media screen and (max-width: 990px) {
+  header button.navbar-toggler {
+    display: block !important;
+    margin-right: 15px;
+    padding: 9px 15px;
+  }
+
+  header button.navbar-toggler span {
+    font-size: 1.67rem;
+  }
+
+  header .text-center > .navbar-nav {
+    display: none;
+  }
+
+  header picture {
+    width: 10%;
+    position: static;
+    margin-left: 27px;
+    margin-top: 6px;
+  }
+
+  header nav {
+    flex-wrap: unset !important;
+    /* align-items: flex-start!important; */
+  }
+
+  header .container-fluid {
+    justify-content: start !important;
+  }
+
+  header .container-fluid {
+    margin-top: 0px;
+  }
+}

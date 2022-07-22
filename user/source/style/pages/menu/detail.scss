@@ -1,0 +1,84 @@
+.detail{
+	background-color: #faf8f5;
+}
+
+
+.detail-item {
+	
+	font-size: 14px;
+	margin-bottom: 6rem;
+	padding-top: 5rem;
+}
+
+.style-color{
+	color: #5d261b;
+}
+
+.detail-item h1 {
+	font-size: 30px;
+	line-height: 2;
+	color: #5d261b;
+}
+
+.detail-item dt {
+	position: relative;
+	float: left;
+	width: 30%;
+	border-top: 1px solid #ddd;
+	min-height: 18px;
+  padding-top: 12px;
+	color: #5d261b;
+}
+
+.detail-item dd {
+	padding-left: 23%;
+	padding: 12px 0 12px 15px;
+	border-top: 1px solid #ddd;
+	min-height: 18px;
+	color: #5d261b;
+}
+
+.detail-item dt::after {
+	content: ":";
+}
+
+.detail-item .col-3 img {
+	max-width: 400px;
+	min-width: 400px;
+	margin-left: 3rem;
+}
+
+.feature h1,
+.feature p {
+	
+	font-size: 1.5rem;
+	color: #5d261b;
+}
+
+.feature h1 {
+	font-size: 3rem;
+	margin-bottom: 2rem;
+}
+
+.feature picture img {
+	border-radius: 5px;
+}
+
+.feature picture img:hover {
+	transition: 0.4s ease-in-out!important;
+    opacity: 0.4;
+}
+
+section .item-list {
+  margin-bottom: 1rem;
+}
+
+.item-link{
+  color: #5d261b;
+  text-align: center;
+}
+
+.price-reduce{
+  margin-right: 20px;
+  opacity: 0.8;
+}

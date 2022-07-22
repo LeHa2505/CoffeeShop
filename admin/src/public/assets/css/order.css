@@ -1,0 +1,76 @@
+.order-detail .line {
+    border-bottom: 1px dashed;
+    margin: 0.5rem 0;
+}
+
+.original_price {
+    text-decoration: line-through;
+}
+
+.product-item .card {
+    border-radius: 10px;
+}
+
+.product-image {
+    border-bottom: 1px solid #ded1d1;
+}
+
+.product-image img {
+    object-fit: cover;
+    width: 100%;
+    margin: auto;
+}
+
+.product-info {
+    padding: 0.5rem;
+}
+
+.product-title {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+
+.product-price {
+    font-size: 14px;
+}
+
+.product-price .original {
+    text-decoration: line-through;
+    font-size: 12px;
+    height: 18px;
+}
+
+.product-item .btn-brown {
+    background-color: #5D261B;
+    color: #ffffff;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+}
+
+.list table .name {
+    display: inline-block;
+    width: 180px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+.list table .price {
+    width: 100px;
+}
+
+.list table .number {
+    width: 60px;
+}
+
+.list table .number input {
+    width: 60px;
+}
+
+.list table .total {
+    width: 100px;
+}
+
+.list table td, .list table th {
+    padding: 0.25rem;
+}
